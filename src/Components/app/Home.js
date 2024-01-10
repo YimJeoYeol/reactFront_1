@@ -35,7 +35,7 @@ function Home() {
                 <div className="mt-4">
                     <h5>📧Contact me email</h5>
                     - &nbsp;
-                    <a href="mailto:jhcode33@gmail.com">jhcode33@gmail.com</a>
+                    <a href="mailto:kingdom934@gmail.com">kingdom934@gmail.com</a>
 
                 </div>
             </div>

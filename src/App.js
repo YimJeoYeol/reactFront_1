@@ -1,5 +1,4 @@
 import { BrowserRouter } from "react-router-dom";
-
 import Header from "./Components/app/Header"
 import Nav from "./Components/app/Nav"
 import Main from "./Components/app/Main"
@@ -11,20 +10,20 @@ import "./css/main.css"
 
 function App() {
 
-  return (
-      <div>
-        <BrowserRouter>
-          <AuthProvider>
-            <HttpHeadersProvider>
-              <Header />
-              {/* <Nav /> */}
-              <Main />
-              <Footer />
-            </HttpHeadersProvider>
-          </AuthProvider>
-        </BrowserRouter>
-      </div>
-  );
+    return (
+        <div>
+            <BrowserRouter>
+                <AuthProvider>
+                    <HttpHeadersProvider>
+                        <Header />
+                        {/* <Nav /> */}
+                        <Main />
+                        <Footer />
+                    </HttpHeadersProvider>
+                </AuthProvider>
+            </BrowserRouter>
+        </div>
+    );
 }
 
 export default App;
